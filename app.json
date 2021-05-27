@@ -1,0 +1,12 @@
+{
+  "name": "CidadeEclima",
+  "displayName": "CidadeEclima",
+  "expo": {
+    "name": "CidadeEclima",
+    "slug": "CidadeEclima",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
