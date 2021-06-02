@@ -3,7 +3,7 @@ import axios from "axios"
 
 export const cityConsult = async (city) => {
     //Pegar o cep e juntar o endereço do viaCep https://viacep.com.br/ws/54450180/json/
-    const url = `https://goweather.herokuapp.com/weather/${city}`
+    const url = `https://goweather.herokuapp.com/weather/%7B${city}%7D`
 
     const res = await axios.get(url);
 

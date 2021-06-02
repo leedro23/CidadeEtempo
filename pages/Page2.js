@@ -9,8 +9,8 @@ const Page2 = ({ navigation }) => {
     const [city, setCity] = React.useState('');
 
     const buscar = async () => {
-        const city = await cityConsult(city);
-        navigation.navigate('Page3', city)
+        const cityy = await cityConsult(city);        
+        navigation.navigate('Page3', cityy)
     };
 
     return (
